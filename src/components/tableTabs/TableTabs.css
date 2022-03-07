@@ -1,0 +1,22 @@
+.Table-tabs-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    background-color: aliceblue;
+    padding: 15px 15px 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #dcdbdb;
+}
+
+.Table-tab {
+    padding: 0 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.Table-tab-selected {
+    font-weight: bold;
+    border-bottom: 5px solid #23a2b9;
+}
